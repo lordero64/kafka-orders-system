@@ -55,3 +55,46 @@ echo "*.iml" >> .gitignore
 echo ".DS_Store" >> .gitignore
 echo "*.log" >> .gitignore
 echo "application-local.yml" >> .gitignore
+# Common model
+common-model/.gitattributes
+common-model/.gitignore
+common-model/mvnw
+common-model/mvnw.cmd
+common-model/.mvn/
+
+# Orders service
+orders-service/.gitattributes
+orders-service/.gitignore
+orders-service/mvnw
+orders-service/mvnw.cmd
+orders-service/.mvn/
+
+# Payment service
+payment-service/.gitattributes
+payment-service/.gitignore
+payment-service/mvnw
+payment-service/mvnw.cmd
+payment-service/.mvn/
+
+# Shipping service
+shipping-service/.gitattributes
+shipping-service/.gitignore
+shipping-service/mvnw
+shipping-service/mvnw.cmd
+shipping-service/.mvn/
+
+# Notification service
+notification-service/.gitattributes
+notification-service/.gitignore
+notification-service/mvnw
+notification-service/mvnw.cmd
+notification-service/.mvn/
+/shipping-service/.gitattributes
+/.gitattributes
+/mvnw
+/mvnw.cmd
+/shipping-service/src/test/java/com/egorov/shippingservice/ShippingServiceApplicationTests.java
+/common-model/src/test/java/com/egorov/commonmodel/CommonModelApplicationTests.java
+/notification-service/src/test/java/com/egorov/notificationservice/NotificationServiceApplicationTests.java
+/orders-service/src/test/java/com/example/ordersservice/OrdersServiceApplicationTests.java
+/payment-service/src/test/java/com/egorov/paymentservice/PaymentServiceApplicationTests.java
