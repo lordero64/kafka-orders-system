@@ -1,0 +1,57 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+
+
+# Compiled
+*.class
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+.vscode/
+.settings/
+
+# Logs
+*.log
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application config with local secrets
+application-local.yml
+application-dev.yml
+
+echo ".idea/" > .gitignore
+echo "target/" >> .gitignore
+echo "*.iml" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "*.log" >> .gitignore
+echo "application-local.yml" >> .gitignore
